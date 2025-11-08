@@ -310,4 +310,17 @@ strong {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  section.image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 10px;
+    gap: 20px;
+
+  }
+  
+  section.image .indeximage {
+    grid-row: 1/3;
+  }
+
 }
