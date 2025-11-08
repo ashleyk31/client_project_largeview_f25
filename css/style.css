@@ -85,19 +85,24 @@ html {
   background-color: #01284c;
 }
 
-body {
+header, main {
   padding: 5%;
   font-family: Verdana, sans-serif;
   background-color: #f1c413;
   color: black;
 }
 
-header, main, footer {
+
+main, footer {
   margin: 0 10px 10px 10px;
 }
 
+header {
+  margin: 0 10px 0 10px;
+}
+
 footer {
-  background-color: #CFC096;
+  background-color: #d0d0d0;
 }
 
 ol, ul {
