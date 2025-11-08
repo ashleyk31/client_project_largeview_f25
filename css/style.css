@@ -145,6 +145,18 @@ img {
   padding: 10px 0;
 }
 
+.error {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+}
+
+.error img {
+  width: 30%;
+}
+
+
 .topic {
   list-style: none;
   font-weight: bold;
