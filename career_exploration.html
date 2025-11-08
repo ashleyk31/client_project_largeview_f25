@@ -60,11 +60,15 @@
     </main>
 
     <footer>
+        <p>© Copyrights <span id="year"></span> by UMSI. All rights reserved.</p>
         <p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916" target="_blank">UMSI Career Development Office </a></p>
         <p>2200 Hayward Street Ann Arbor, MI 48109</p>
 		<p><a href="https://www.si.umich.edu/about-umsi/contact-us">Contact Us</a> | <a href="https://www.si.umich.edu/privacy-statement">Privacy Statement</a></p>
 		<p>Social Media Links: <a href="https://twitter.com/umsi">Twitter</a> | <a href="https://www.instagram.com/umschoolofinformation">Instagram</a> | <a href="https://www.facebook.com/uomsi/">Facebook</a> | <a href="https://www.youtube.com/user/schoolofinformation">Youtube</a></p>
     </footer>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 
 </body>
 </html>
