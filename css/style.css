@@ -28,20 +28,31 @@
 
 /* this allows the users to know what page they are on */
 nav li.currentpage {
-    border: 4px solid #01284c;
-    background-color: white;
+    border: 4px solid white;
+    background-color: #f1c413;
+    text-decoration: none;
 }
+
+nav ul {
+  padding: 10px;
+  text-align: center;
+  background-color: #01284c;
+}
+
+nav li.currentpage a {
+  color: #01284c;
+}
+
+nav a:link,
+nav a:visited {
+  color: white;
+}
+
 
 .logo img {
     justify-content: right;
     width: 20%;
     padding-bottom: 5%;
-}
-
-nav a:link,
-nav a:visited {
-  color: #01284c;
-  text-decoration: none;
 }
 
 .logo {
@@ -111,7 +122,6 @@ ol, ul {
 
 
 
-
 /* --------------------------------------------------------- */
 /* index page style */
 /* --------------------------------------------------------- */
@@ -158,12 +168,17 @@ section li {
 }
 
 
+
+/* --------------------------------------------------------- */
+/* media query for large screen */
+/* --------------------------------------------------------- */
+
+
+/* small tablet view */
 @media (min-width: 481px) {
   html {
-    background-color: white;
     margin: 30px;
   }
-
 
   nav ul {
     display: grid;
@@ -176,8 +191,8 @@ section li {
   }
 
   nav li.currentpage {
-      border: 4px solid white;
-      background-color: #f1c413;
+    border: 4px solid white;
+    background-color: #f1c413;
   }
   nav li.currentpage a {
     color: #01284c;
@@ -190,27 +205,27 @@ section li {
 
 
   li {
-    font-size: calc(0.5rem + 1vw);
+    font-size: calc(0.8rem + 0.5vw);
   }
 
   h1 {
-    font-size: calc(1rem + 1.5vw);
+    font-size: calc(1.2rem + 0.5vw);
     text-align: center;
     padding: 0.5em 0;
   }
 
   h2 {
-    font-size: calc(0.5rem + 3vw);
+    font-size: calc(1rem + 0.5vw);
     padding: 1em 0 0.5em 0;
   }
 
   h3 {
-    font-size: calc(0.5rem + 2.5vw);
+    font-size: calc(0.9rem + 0.5vw);
     padding: 1em 0 0 0;
   }
 
   p {
-    font-size: calc(0.5rem + 1vw);
+    font-size: calc(0.7rem + 0.5vw);
   }
 }
 
